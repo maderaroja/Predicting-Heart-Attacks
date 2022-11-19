@@ -1,0 +1,7 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Notebook Checkpoints
+.ipynb_checkpoints/
+.DS_Store
