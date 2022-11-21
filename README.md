@@ -62,10 +62,10 @@ A data dictionary is provided that explains each feature name.
 <img src ="Figures/numeric_plot.png" width="100%" />
 
 ### Correlation Plot
-<img src ="Figures/cc_plot.png" />
+<img src ="Figures/cc_plot.png" width="80%" />
 
 ### Confusion Matrix
-<img src ="Figures/confusion_matrix.png" />
+<img src ="Figures/confusion_matrix.png" width="100%" />
 
 
 ## Production
