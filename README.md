@@ -54,7 +54,7 @@ A data dictionary is provided that explains each feature name.
 
 The data was cleansed to reflect easy to understand feature names, to remove null values, and to correct dtypes.
 
-## Visualizations
+## 4. Visualizations
 Several visualizations were carried out as an exploratory step into the relationship among the features.
 
 ### Interactive Tooltip Barchart - interaction enabled when code is ran
@@ -70,7 +70,7 @@ Several visualizations were carried out as an exploratory step into the relation
 <img src ="Figures/confusion_matrix.png" width="100%" />
 
 
-## Production
+## 5. Production
 
 This model can be placed into production via automation, using sklearn automation for example. At present, the model can be run by runningy the DS_EDA.py or DS_EDA.ipynb files included here.
 
