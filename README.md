@@ -3,9 +3,9 @@
 According to the [Government of Canada](https://www.canada.ca/en/public-health/services/publications/diseases-conditions/heart-disease-canada.html):
 - every hour, about 14 Canadian adults age 20 and over with diagnosed heart disease die.
 
-This makes heart disease, and in this specific case, heart attacks an important issue with which to treat.
+This makes heart disease, and in this specific case: heart attack, an important issue with which to treat.
 
-The present project works with a sample of real world publicly available health data pertaining to heart attacks in order to explore a predictive model for heart attacks. This model employs various health metrics.
+The present project works with a sample of real world publicly available health data pertaining to heart attacks. The goal is to explore a predictive model for heart attacks. This model employs various health related biometrics.
 
 ## 1. An Exploratory Data Analysis (EDA)
 An EDA is included that aims to provide an understanding of the dataset and what challenges or issues it may contain. This allows for the use of data visualizations to further describe the data and feature relationships within it.
@@ -29,7 +29,7 @@ The aim of this model to predict the likelihood of a patient getting a heart att
 - `TStress_result`
 - `Blood_oxygen`
 
-Some feature could be left out in a refined version of this predictive model such as slope. Further consultation is needed in order to determine the value, use, and relationship of this feature with the target feature.
+Some feature could be left out in a refined version of this predictive model such as slope. Further consultation is needed in order to determine the value, use, and relationship of this and other features with the target feature, `Heart_attack`.
 
 ## 3. Data Dictionary
 A data dictionary is provided that explains each feature name.
@@ -52,8 +52,10 @@ A data dictionary is provided that explains each feature name.
 | o2Saturation | Blood oxygen saturation (%) |
 | output | Target variable|
 
+The data was cleansed to reflect easy to understand feature names, to remove null values, and to correct dtypes.
 
 ## Visualizations
+Several visualizations were carried out as an exploratory step into the relationship among the features.
 
 ### Interactive Tooltip Barchart - interaction enabled when code is ran
 <img src ="Figures/fig1.png" width="100%" />
@@ -70,6 +72,6 @@ A data dictionary is provided that explains each feature name.
 
 ## Production
 
-This model can be placed into production via autmation, using sklearn for example. At present, the model can be run by runningy the .py or .ipynb files included here.
+This model can be placed into production via automation, using sklearn automation for example. At present, the model can be run by runningy the DS_EDA.py or DS_EDA.ipynb files included here.
 
 
