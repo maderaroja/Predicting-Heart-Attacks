@@ -55,17 +55,17 @@ A data dictionary is provided that explains each feature name.
 
 ## Visualizations
 
-### Interactive Tooltip Barchart
+### Interactive Tooltip Barchart - interaction enabled when code is ran
 <img src ="Figures/fig1.png" width="100%" />
 
 ### Numeric Features Plot
 <img src ="Figures/numeric_plot.png" width="100%" />
 
 ### Correlation Plot
-<img src ="Figures/cc_plot.png" width="100%" />
+<img src ="Figures/cc_plot.png" />
 
 ### Confusion Matrix
-<img src ="Figures/confusion_matrix.png" width="100%" />
+<img src ="Figures/confusion_matrix.png" />
 
 
 ## Production
