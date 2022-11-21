@@ -52,6 +52,24 @@ A data dictionary is provided that explains each feature name.
 | o2Saturation | Blood oxygen saturation (%) |
 | output | Target variable|
 
+
+## Visualizations
+
+### Interactive Tooltip Barchart
+<img src ="Figures/fig1.png" width="100%" />
+
+### Numeric Features Plot
+<img src ="Figures/numeric_plot.png" width="100%" />
+
+### Correlation Plot
+<img src ="Figures/cc_plot.png" width="100%" />
+
+### Confusion Matrix
+<img src ="Figures/confusion_matrix.png" width="100%" />
+
+
 ## Production
 
 This model can be placed into production via autmation, using sklearn for example. At present, the model can be run by runningy the .py or .ipynb files included here.
+
+
