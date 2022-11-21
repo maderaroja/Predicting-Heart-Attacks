@@ -72,6 +72,6 @@ Several visualizations were carried out as an exploratory step into the relation
 
 ## 5. Production
 
-This model can be placed into production via automation, using sklearn automation for example. At present, the model can be run by runningy the DS_EDA.py or DS_EDA.ipynb files included here.
+This model can be placed into production via automation, using auto sklearn for example. At present, the model can be executed by running the DS_EDA.py or DS_EDA.ipynb files included here. Production is elaborated upon in these two files, as are each section of this README.md file.
 
 
