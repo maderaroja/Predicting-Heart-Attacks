@@ -1,7 +1,7 @@
 # Predicting Heart Attacks
 
 According to the [Government of Canada](https://www.canada.ca/en/public-health/services/publications/diseases-conditions/heart-disease-canada.html):
-- every hour, about 14 Canadian adults age 20 and over with diagnosed heart disease die.
+- every hour about 14 Canadian adults, age 20 and over with diagnosed heart disease, die.
 
 This makes heart disease, and in this specific case: heart attack, an important issue with which to treat.
 
@@ -13,7 +13,7 @@ An EDA is included that aims to provide an understanding of the dataset and what
 ## 2. A Random Forest Predictive Model
 A random forest predictive model is used because it provides better accuracy (tradeoff) than other classifiers, which includes a lower risk of over-fitting. The data includes categorical features, which might result in a bias (tradeoff) of the random forest algorithm. This does not heavily disadvantage the exploratory intent of this project.
 
-The aim of this model to predict the likelihood of a patient getting a heart attack. All features excepting the target feature (`Heart_attack`) are in play. This comprises:
+The aim of this model is to predict the likelihood of a patient getting a heart attack. All features, excepting the target feature (`Heart_attack`), are in play. This comprises:
 - `age`
 - `sex`
 - `chest_pain`
@@ -29,7 +29,7 @@ The aim of this model to predict the likelihood of a patient getting a heart att
 - `TStress_result`
 - `Blood_oxygen`
 
-Some feature could be left out in a refined version of this predictive model such as slope. Further consultation is needed in order to determine the value, use, and relationship of this and other features with the target feature, `Heart_attack`.
+Some features could be left out in a refined version of this predictive model, such as slope. Further consultation is needed in order to determine the value, use, and relationship of this and other features with the target feature, `Heart_attack`.
 
 ## 3. Data Dictionary
 A data dictionary is provided that explains each feature name.
