@@ -12044,7 +12044,7 @@
    "metadata": {},
    "source": [
     "# Modeling: Predicting Heart Attacks\n",
-    "Let's see if our feature can sufficiently predict heart attack.\n",
+    "Let's see if our features can sufficiently predict heart attack.\n",
     "\n",
     "We begin by splitting our dataset."
    ]
@@ -12455,7 +12455,7 @@
    "id": "fd7e480a-bb83-485b-aa63-86ff45d23033",
    "metadata": {},
    "source": [
-    "Now let's build a base model for comparison with our random forest model."
+    "Now, let's build a base model for comparison with our random forest model."
    ]
   },
   {
@@ -13247,7 +13247,7 @@
    "id": "286c3aa3-c313-4165-a17c-4695ff0e53d0",
    "metadata": {},
    "source": [
-    "The confusion matrix shows that we achieve predicting heart attacks for 52% of the time."
+    "The confusion matrix shows that we achieved predicting heart attacks for 52% of the time."
    ]
   },
   {
@@ -13282,7 +13282,7 @@
    "id": "38b16957-d004-4528-a352-935921ca72c9",
    "metadata": {},
    "source": [
-    "The classification report helps us to understand that very little support is present (61 data points) which can affect the predictive model. For instance, 31 sata points pertained to those who have heart attack, and 27 to those who do not. These are very small amounts of data point that can hinder the model from learning sufficiently. \n",
+    "The classification report helps us to understand that very little support is present (61 data points) which can affect the predictive model. For instance, 31 data points pertained to those who have heart attack, and 27 to those who do not. These are very small amounts of data points, a quantity which can hinder the model from learning sufficiently. \n",
     "\n",
     "The use of many more data points, such as in the thousands, can help to improve the predictive capability of the model. "
    ]
@@ -13301,22 +13301,30 @@
    "metadata": {},
    "source": [
     "Above we have:\n",
-    "- developped and created a model in a training environment ()\n",
+    "- developed and created a model in a training environment\n",
     "- optimized and tested our code\n",
     "\n",
-    "These are the initial steps necessary to putting our model into production. Below are the following steps we would take to finalize putting out model into production:\n",
+    "These are the initial steps necessary to putting our model into production. Below are the following steps we would take to finalize putting our model into production:\n",
     "- perform feature engineering\n",
     "- clean and re-test our code for optimization\n",
     "- Place the model into a container (containerization)\n",
     "- Decide on a deployment method (Batch or online inference)\n",
     "- Automate deployment and testing\n",
-    "- Continuous monitoring of the deployed model\n",
+    "- Monitor, continuously, the deployed model\n",
     "\n",
     "### Challenges:\n",
-    "The above steps require additional decision making, which includes examining best practices online and consulting with my colleagues. One example of needed consultation with my colleagues pertains to the frequency with which my model will be receiving new data. This influences the choice between batch and online inference. If new data is beig received in real time, then online inference will be chosen. If it is being recieved periodically and in delayed time then batch inference will be chosen.\n",
+    "The above steps require additional decision making, which includes examining best practices online and consulting with my colleagues. One example of needed consultation with my colleagues pertains to the frequency with which my model will be receiving new data. This influences the choice between batch and online inference. If new data is being received in real time, then online inference will be chosen. If it is being recieved periodically and in delayed time then batch inference will be chosen.\n",
     "\n",
-    "Another challenge comprises the following hypothetical situation: if I were given 10 minutes of continuous ECG data for each patient in the dataset then I would want to examine the dataset in the context of time series analysis. My preferred language for doing this is R as I will be taking a heavier statistical approach to the analysis. This is a fundamental change to the approach outline in this report."
+    "Another challenge comprises the following hypothetical situation: if I were given 10 minutes of continuous ECG data for each patient in the dataset then I would want to examine the dataset in the context of time series analysis. My preferred language for doing this is R as I will be taking a heavier statistical approach to the analysis. This is a fundamental change to the approach outlined in this report."
    ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "cc69f0a5-0a74-456d-8cd4-4492f73bce9c",
+   "metadata": {},
+   "outputs": [],
+   "source": []
   }
  ],
  "metadata": {
