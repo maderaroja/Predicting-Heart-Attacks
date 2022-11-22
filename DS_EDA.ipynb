@@ -709,7 +709,7 @@
     }
    ],
    "source": [
-    "# Remove NaN values in our target feature, FatLevel.\n",
+    "# Remove NaN values in our target feature, Heart_attack.\n",
     "awake_df = awake_df.dropna(subset=[\"Heart_attack\"])\n",
     "awake_df.head()"
    ]
